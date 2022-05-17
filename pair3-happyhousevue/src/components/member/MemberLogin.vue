@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h3>로그인창</h3>
+    ID <input size="5" /> PW <input size="7" /> &nbsp;
+    <b-button class="btn">LOGIN</b-button>
   </div>
 </template>
 <!-- if-else 로그인, 로그아웃

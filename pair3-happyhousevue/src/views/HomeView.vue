@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <b-navbar type="dark" variant="success" class="nav">
+    <!--    <b-navbar type="dark" variant="success" class="nav">
       <b-navbar-brand href="#"> HappyHouse </b-navbar-brand>
 
       <b-navbar-nav class="ml-auto">
@@ -14,8 +14,8 @@
 
         <b-nav-item> <member-login /> </b-nav-item>
       </b-navbar-nav>
-    </b-navbar>
-
+    </b-navbar> -->
+    <br /><br />
     <house-search />
     <div>
       <img
@@ -33,7 +33,6 @@
 
 <script>
 // @ is an alias to /src
-import MemberLogin from "@/components/member/MemberLogin.vue";
 import BoardNotice from "@/components/board/BoardNotice.vue";
 import BoardComm from "@/components/board/BoardComm.vue";
 import HouseSearch from "@/components/house/HouseSearch.vue";
@@ -41,7 +40,6 @@ import HouseSearch from "@/components/house/HouseSearch.vue";
 export default {
   name: "HomeView",
   components: {
-    MemberLogin,
     BoardNotice,
     BoardComm,
     HouseSearch,
